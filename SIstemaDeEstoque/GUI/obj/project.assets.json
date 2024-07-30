@@ -476,11 +476,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Codigos\\Projetos\\CRUDNOVO\\DALL\\GUI\\GUI.csproj",
+      "projectUniqueName": "D:\\Codigos\\Projetos\\CRUDNOVO\\Sistema-de-estoque-em-C-\\SIstemaDeEstoque\\GUI\\GUI.csproj",
       "projectName": "GUI",
-      "projectPath": "D:\\Codigos\\Projetos\\CRUDNOVO\\DALL\\GUI\\GUI.csproj",
+      "projectPath": "D:\\Codigos\\Projetos\\CRUDNOVO\\Sistema-de-estoque-em-C-\\SIstemaDeEstoque\\GUI\\GUI.csproj",
       "packagesPath": "C:\\Users\\Pc\\.nuget\\packages\\",
-      "outputPath": "D:\\Codigos\\Projetos\\CRUDNOVO\\DALL\\GUI\\obj\\",
+      "outputPath": "D:\\Codigos\\Projetos\\CRUDNOVO\\Sistema-de-estoque-em-C-\\SIstemaDeEstoque\\GUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Codigos\\Microsoft\\VisualStudio\\Shared\\NuGetPackages"

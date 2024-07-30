@@ -5,9 +5,9 @@ using System.Data.SqlClient;
 
 namespace DALL
 {
-    class DALCategoria
+    public class DALCategoria
     {
-        private DALConexao conexao;
+        public DALConexao conexao;
 
         public DALCategoria(DALConexao cx)
         {

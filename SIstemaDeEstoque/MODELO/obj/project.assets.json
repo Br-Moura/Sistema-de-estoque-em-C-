@@ -476,11 +476,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Codigos\\Projetos\\CRUDNOVO\\DALL\\MODELO\\MODELO.csproj",
+      "projectUniqueName": "D:\\Codigos\\Projetos\\CRUDNOVO\\Sistema-de-estoque-em-C-\\SIstemaDeEstoque\\MODELO\\MODELO.csproj",
       "projectName": "MODELO",
-      "projectPath": "D:\\Codigos\\Projetos\\CRUDNOVO\\DALL\\MODELO\\MODELO.csproj",
+      "projectPath": "D:\\Codigos\\Projetos\\CRUDNOVO\\Sistema-de-estoque-em-C-\\SIstemaDeEstoque\\MODELO\\MODELO.csproj",
       "packagesPath": "C:\\Users\\Pc\\.nuget\\packages\\",
-      "outputPath": "D:\\Codigos\\Projetos\\CRUDNOVO\\DALL\\MODELO\\obj\\",
+      "outputPath": "D:\\Codigos\\Projetos\\CRUDNOVO\\Sistema-de-estoque-em-C-\\SIstemaDeEstoque\\MODELO\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Codigos\\Microsoft\\VisualStudio\\Shared\\NuGetPackages"

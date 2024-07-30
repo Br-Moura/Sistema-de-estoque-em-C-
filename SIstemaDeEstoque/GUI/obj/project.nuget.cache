@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XASYKSax4Oc=",
+  "dgSpecHash": "iT9ss3Cn0U4=",
   "success": true,
-  "projectFilePath": "D:\\Codigos\\Projetos\\CRUDNOVO\\DALL\\GUI\\GUI.csproj",
+  "projectFilePath": "D:\\Codigos\\Projetos\\CRUDNOVO\\Sistema-de-estoque-em-C-\\SIstemaDeEstoque\\GUI\\GUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pc\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Pc\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

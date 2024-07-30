@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Codigos\\Projetos\\CRUDNOVO\\DALL\\DALL\\DALL.csproj": {}
+    "D:\\Codigos\\Projetos\\CRUDNOVO\\Sistema-de-estoque-em-C-\\SIstemaDeEstoque\\DALL\\DALL.csproj": {}
   },
   "projects": {
-    "D:\\Codigos\\Projetos\\CRUDNOVO\\DALL\\DALL\\DALL.csproj": {
+    "D:\\Codigos\\Projetos\\CRUDNOVO\\Sistema-de-estoque-em-C-\\SIstemaDeEstoque\\DALL\\DALL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Codigos\\Projetos\\CRUDNOVO\\DALL\\DALL\\DALL.csproj",
+        "projectUniqueName": "D:\\Codigos\\Projetos\\CRUDNOVO\\Sistema-de-estoque-em-C-\\SIstemaDeEstoque\\DALL\\DALL.csproj",
         "projectName": "DALL",
-        "projectPath": "D:\\Codigos\\Projetos\\CRUDNOVO\\DALL\\DALL\\DALL.csproj",
+        "projectPath": "D:\\Codigos\\Projetos\\CRUDNOVO\\Sistema-de-estoque-em-C-\\SIstemaDeEstoque\\DALL\\DALL.csproj",
         "packagesPath": "C:\\Users\\Pc\\.nuget\\packages\\",
-        "outputPath": "D:\\Codigos\\Projetos\\CRUDNOVO\\DALL\\DALL\\obj\\",
+        "outputPath": "D:\\Codigos\\Projetos\\CRUDNOVO\\Sistema-de-estoque-em-C-\\SIstemaDeEstoque\\DALL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Codigos\\Microsoft\\VisualStudio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Codigos\\Projetos\\CRUDNOVO\\DALL\\MODELO\\MODELO.csproj": {
-                "projectPath": "D:\\Codigos\\Projetos\\CRUDNOVO\\DALL\\MODELO\\MODELO.csproj"
+              "D:\\Codigos\\Projetos\\CRUDNOVO\\Sistema-de-estoque-em-C-\\SIstemaDeEstoque\\MODELO\\MODELO.csproj": {
+                "projectPath": "D:\\Codigos\\Projetos\\CRUDNOVO\\Sistema-de-estoque-em-C-\\SIstemaDeEstoque\\MODELO\\MODELO.csproj"
               }
             }
           }
@@ -79,14 +79,14 @@
         }
       }
     },
-    "D:\\Codigos\\Projetos\\CRUDNOVO\\DALL\\MODELO\\MODELO.csproj": {
+    "D:\\Codigos\\Projetos\\CRUDNOVO\\Sistema-de-estoque-em-C-\\SIstemaDeEstoque\\MODELO\\MODELO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Codigos\\Projetos\\CRUDNOVO\\DALL\\MODELO\\MODELO.csproj",
+        "projectUniqueName": "D:\\Codigos\\Projetos\\CRUDNOVO\\Sistema-de-estoque-em-C-\\SIstemaDeEstoque\\MODELO\\MODELO.csproj",
         "projectName": "MODELO",
-        "projectPath": "D:\\Codigos\\Projetos\\CRUDNOVO\\DALL\\MODELO\\MODELO.csproj",
+        "projectPath": "D:\\Codigos\\Projetos\\CRUDNOVO\\Sistema-de-estoque-em-C-\\SIstemaDeEstoque\\MODELO\\MODELO.csproj",
         "packagesPath": "C:\\Users\\Pc\\.nuget\\packages\\",
-        "outputPath": "D:\\Codigos\\Projetos\\CRUDNOVO\\DALL\\MODELO\\obj\\",
+        "outputPath": "D:\\Codigos\\Projetos\\CRUDNOVO\\Sistema-de-estoque-em-C-\\SIstemaDeEstoque\\MODELO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Codigos\\Microsoft\\VisualStudio\\Shared\\NuGetPackages"

@@ -7,7 +7,7 @@ using System.Data.SqlClient;
 
 namespace DALL
 {
-    class DALConexao
+    public class DALConexao
     {
         private String _stringConexao;
         private SqlConnection _conexao;

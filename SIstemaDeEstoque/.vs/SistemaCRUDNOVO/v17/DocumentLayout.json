@@ -1,26 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Codigos\\Projetos\\CRUDNOVO\\DALL\\",
+  "WorkspaceRootPath": "D:\\Codigos\\Projetos\\CRUDNOVO\\Sistema-de-estoque-em-C-\\SIstemaDeEstoque\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AEFFA7BB-EC9F-454F-95C2-EEB9E049B41A}|DALL\\DALL.csproj|d:\\codigos\\projetos\\crudnovo\\dall\\dall\\dalcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{245BC10D-B230-4E06-B9DD-EB9F96B2B345}|BLL\\BLL.csproj|d:\\codigos\\projetos\\crudnovo\\sistema-de-estoque-em-c-\\sistemadeestoque\\bll\\bllcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{245BC10D-B230-4E06-B9DD-EB9F96B2B345}|BLL\\BLL.csproj|solutionrelative:bll\\bllcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEFFA7BB-EC9F-454F-95C2-EEB9E049B41A}|DALL\\DALL.csproj|d:\\codigos\\projetos\\crudnovo\\sistema-de-estoque-em-c-\\sistemadeestoque\\dall\\dalcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AEFFA7BB-EC9F-454F-95C2-EEB9E049B41A}|DALL\\DALL.csproj|solutionrelative:dall\\dalcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EDC224BD-EA18-4F6A-BE97-38794A1BFD3E}|MODELO\\MODELO.csproj|d:\\codigos\\projetos\\crudnovo\\dall\\modelo\\modelocategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDC224BD-EA18-4F6A-BE97-38794A1BFD3E}|MODELO\\MODELO.csproj|solutionrelative:modelo\\modelocategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AEFFA7BB-EC9F-454F-95C2-EEB9E049B41A}|DALL\\DALL.csproj|d:\\codigos\\projetos\\crudnovo\\dall\\dall\\dalconexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEFFA7BB-EC9F-454F-95C2-EEB9E049B41A}|DALL\\DALL.csproj|solutionrelative:dall\\dalconexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AEFFA7BB-EC9F-454F-95C2-EEB9E049B41A}|DALL\\DALL.csproj|d:\\codigos\\projetos\\crudnovo\\dall\\dall\\dadosdaconexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AEFFA7BB-EC9F-454F-95C2-EEB9E049B41A}|DALL\\DALL.csproj|d:\\codigos\\projetos\\crudnovo\\sistema-de-estoque-em-c-\\sistemadeestoque\\dall\\dadosdaconexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AEFFA7BB-EC9F-454F-95C2-EEB9E049B41A}|DALL\\DALL.csproj|solutionrelative:dall\\dadosdaconexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AEFFA7BB-EC9F-454F-95C2-EEB9E049B41A}|DALL\\DALL.csproj|d:\\codigos\\projetos\\crudnovo\\dall\\dall\\dall.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{AEFFA7BB-EC9F-454F-95C2-EEB9E049B41A}|DALL\\DALL.csproj|solutionrelative:dall\\dall.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{AEFFA7BB-EC9F-454F-95C2-EEB9E049B41A}|DALL\\DALL.csproj|d:\\codigos\\projetos\\crudnovo\\sistema-de-estoque-em-c-\\sistemadeestoque\\dall\\dalconexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEFFA7BB-EC9F-454F-95C2-EEB9E049B41A}|DALL\\DALL.csproj|solutionrelative:dall\\dalconexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,63 +31,55 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DALCategoria.cs",
-              "DocumentMoniker": "D:\\Codigos\\Projetos\\CRUDNOVO\\DALL\\DALL\\DALCategoria.cs",
-              "RelativeDocumentMoniker": "DALL\\DALCategoria.cs",
-              "ToolTip": "D:\\Codigos\\Projetos\\CRUDNOVO\\DALL\\DALL\\DALCategoria.cs",
-              "RelativeToolTip": "DALL\\DALCategoria.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFEAAAAAAAAA",
+              "Title": "BLLCategoria.cs",
+              "DocumentMoniker": "D:\\Codigos\\Projetos\\CRUDNOVO\\Sistema-de-estoque-em-C-\\SIstemaDeEstoque\\BLL\\BLLCategoria.cs",
+              "RelativeDocumentMoniker": "BLL\\BLLCategoria.cs",
+              "ToolTip": "D:\\Codigos\\Projetos\\CRUDNOVO\\Sistema-de-estoque-em-C-\\SIstemaDeEstoque\\BLL\\BLLCategoria.cs",
+              "RelativeToolTip": "BLL\\BLLCategoria.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAgwBkAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T21:52:14.646Z",
+              "WhenOpened": "2024-07-30T22:50:41.195Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DALL.csproj",
-              "DocumentMoniker": "D:\\Codigos\\Projetos\\CRUDNOVO\\DALL\\DALL\\DALL.csproj",
-              "RelativeDocumentMoniker": "DALL\\DALL.csproj",
-              "ToolTip": "D:\\Codigos\\Projetos\\CRUDNOVO\\DALL\\DALL\\DALL.csproj",
-              "RelativeToolTip": "DALL\\DALL.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-30T21:35:22.27Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DALConexao.cs",
-              "DocumentMoniker": "D:\\Codigos\\Projetos\\CRUDNOVO\\DALL\\DALL\\DALConexao.cs",
-              "RelativeDocumentMoniker": "DALL\\DALConexao.cs",
-              "ToolTip": "D:\\Codigos\\Projetos\\CRUDNOVO\\DALL\\DALL\\DALConexao.cs",
-              "RelativeToolTip": "DALL\\DALConexao.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAiAAAA",
+              "Title": "DadosDaConexao.cs",
+              "DocumentMoniker": "D:\\Codigos\\Projetos\\CRUDNOVO\\Sistema-de-estoque-em-C-\\SIstemaDeEstoque\\DALL\\DadosDaConexao.cs",
+              "RelativeDocumentMoniker": "DALL\\DadosDaConexao.cs",
+              "ToolTip": "D:\\Codigos\\Projetos\\CRUDNOVO\\Sistema-de-estoque-em-C-\\SIstemaDeEstoque\\DALL\\DadosDaConexao.cs",
+              "RelativeToolTip": "DALL\\DadosDaConexao.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T21:44:25.261Z"
+              "WhenOpened": "2024-07-30T23:07:35.514Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "DadosDaConexao.cs",
-              "DocumentMoniker": "D:\\Codigos\\Projetos\\CRUDNOVO\\DALL\\DALL\\DadosDaConexao.cs",
-              "RelativeDocumentMoniker": "DALL\\DadosDaConexao.cs",
-              "ToolTip": "D:\\Codigos\\Projetos\\CRUDNOVO\\DALL\\DALL\\DadosDaConexao.cs",
-              "RelativeToolTip": "DALL\\DadosDaConexao.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAEAAAA",
+              "Title": "DALConexao.cs",
+              "DocumentMoniker": "D:\\Codigos\\Projetos\\CRUDNOVO\\Sistema-de-estoque-em-C-\\SIstemaDeEstoque\\DALL\\DALConexao.cs",
+              "RelativeDocumentMoniker": "DALL\\DALConexao.cs",
+              "ToolTip": "D:\\Codigos\\Projetos\\CRUDNOVO\\Sistema-de-estoque-em-C-\\SIstemaDeEstoque\\DALL\\DALConexao.cs",
+              "RelativeToolTip": "DALL\\DALConexao.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T21:36:18.877Z"
+              "WhenOpened": "2024-07-30T23:04:43.097Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ModeloCategoria.cs",
-              "DocumentMoniker": "D:\\Codigos\\Projetos\\CRUDNOVO\\DALL\\MODELO\\ModeloCategoria.cs",
-              "RelativeDocumentMoniker": "MODELO\\ModeloCategoria.cs",
-              "ToolTip": "D:\\Codigos\\Projetos\\CRUDNOVO\\DALL\\MODELO\\ModeloCategoria.cs",
-              "RelativeToolTip": "MODELO\\ModeloCategoria.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAdAAAA",
+              "Title": "DALCategoria.cs",
+              "DocumentMoniker": "D:\\Codigos\\Projetos\\CRUDNOVO\\Sistema-de-estoque-em-C-\\SIstemaDeEstoque\\DALL\\DALCategoria.cs",
+              "RelativeDocumentMoniker": "DALL\\DALCategoria.cs",
+              "ToolTip": "D:\\Codigos\\Projetos\\CRUDNOVO\\Sistema-de-estoque-em-C-\\SIstemaDeEstoque\\DALL\\DALCategoria.cs",
+              "RelativeToolTip": "DALL\\DALCategoria.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T21:30:36.426Z"
+              "WhenOpened": "2024-07-30T22:50:58.645Z",
+              "EditorCaption": ""
             }
           ]
         }
