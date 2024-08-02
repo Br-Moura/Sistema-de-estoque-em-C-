@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace DALL
 {
-    class DadosDaConexao
+    public class DadosDaConexao
     {
         public static String StringdeConexao
         {
             get
             {
-                return "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=CRUDNOVO;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False";
+               // return "Data Source=DESKTOP-MPBBNFK\\MYSQLSERVER;Catalog=CRUDNOVO; Security=True;Connect Timeout=30;Encrypt=False;";
+                return "server=DESKTOP-MPBBNFK\\MYSQLSERVER;Database=CRUDNOVO;User Id=SUPER;Password=123456;";
             }
 
         }

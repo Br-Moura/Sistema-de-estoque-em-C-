@@ -19,7 +19,7 @@ namespace DALL
             SqlCommand cmd = new SqlCommand();
             cmd.Connection = conexao.ObjetoConexao;
             cmd.CommandText = "insert into CATEGORIA (nome_CATEGORIA)" +
-                              "values ('@nome') select @@IDENTITY";
+                              "values (@nome) select @@IDENTITY";
             cmd.Parameters.AddWithValue("@nome", modelo.CatNome);
             conexao.Conectar();
             modelo.CatID = Convert.ToInt32(cmd.ExecuteScalar());
