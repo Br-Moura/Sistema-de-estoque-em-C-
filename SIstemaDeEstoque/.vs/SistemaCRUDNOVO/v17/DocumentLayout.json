@@ -1,105 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Codigos\\Projetos\\CRUDNOVO\\Sistema-de-estoque-em-C-\\SIstemaDeEstoque\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{AEFFA7BB-EC9F-454F-95C2-EEB9E049B41A}|DALL\\DALL.csproj|d:\\codigos\\projetos\\crudnovo\\sistema-de-estoque-em-c-\\sistemadeestoque\\dall\\dalcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEFFA7BB-EC9F-454F-95C2-EEB9E049B41A}|DALL\\DALL.csproj|solutionrelative:dall\\dalcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EDC224BD-EA18-4F6A-BE97-38794A1BFD3E}|MODELO\\MODELO.csproj|d:\\codigos\\projetos\\crudnovo\\sistema-de-estoque-em-c-\\sistemadeestoque\\modelo\\modelocategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDC224BD-EA18-4F6A-BE97-38794A1BFD3E}|MODELO\\MODELO.csproj|solutionrelative:modelo\\modelocategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AEFFA7BB-EC9F-454F-95C2-EEB9E049B41A}|DALL\\DALL.csproj|d:\\codigos\\projetos\\crudnovo\\sistema-de-estoque-em-c-\\sistemadeestoque\\dall\\dadosdaconexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEFFA7BB-EC9F-454F-95C2-EEB9E049B41A}|DALL\\DALL.csproj|solutionrelative:dall\\dadosdaconexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AEFFA7BB-EC9F-454F-95C2-EEB9E049B41A}|DALL\\DALL.csproj|d:\\codigos\\projetos\\crudnovo\\sistema-de-estoque-em-c-\\sistemadeestoque\\dall\\dalconexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEFFA7BB-EC9F-454F-95C2-EEB9E049B41A}|DALL\\DALL.csproj|solutionrelative:dall\\dalconexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E0B8592-4AFB-49BF-93AB-3F5C6658119C}|DESK\\DESK.csproj|d:\\codigos\\projetos\\crudnovo\\sistema-de-estoque-em-c-\\sistemadeestoque\\desk\\frmmodelodecadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E0B8592-4AFB-49BF-93AB-3F5C6658119C}|DESK\\DESK.csproj|solutionrelative:desk\\frmmodelodecadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ModeloCategoria.cs",
-              "DocumentMoniker": "D:\\Codigos\\Projetos\\CRUDNOVO\\Sistema-de-estoque-em-C-\\SIstemaDeEstoque\\MODELO\\ModeloCategoria.cs",
-              "RelativeDocumentMoniker": "MODELO\\ModeloCategoria.cs",
-              "ToolTip": "D:\\Codigos\\Projetos\\CRUDNOVO\\Sistema-de-estoque-em-C-\\SIstemaDeEstoque\\MODELO\\ModeloCategoria.cs",
-              "RelativeToolTip": "MODELO\\ModeloCategoria.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T23:10:49.076Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DALCategoria.cs",
-              "DocumentMoniker": "D:\\Codigos\\Projetos\\CRUDNOVO\\Sistema-de-estoque-em-C-\\SIstemaDeEstoque\\DALL\\DALCategoria.cs",
-              "RelativeDocumentMoniker": "DALL\\DALCategoria.cs",
-              "ToolTip": "D:\\Codigos\\Projetos\\CRUDNOVO\\Sistema-de-estoque-em-C-\\SIstemaDeEstoque\\DALL\\DALCategoria.cs",
-              "RelativeToolTip": "DALL\\DALCategoria.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T23:06:56.691Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DadosDaConexao.cs",
-              "DocumentMoniker": "D:\\Codigos\\Projetos\\CRUDNOVO\\Sistema-de-estoque-em-C-\\SIstemaDeEstoque\\DALL\\DadosDaConexao.cs",
-              "RelativeDocumentMoniker": "DALL\\DadosDaConexao.cs",
-              "ToolTip": "D:\\Codigos\\Projetos\\CRUDNOVO\\Sistema-de-estoque-em-C-\\SIstemaDeEstoque\\DALL\\DadosDaConexao.cs",
-              "RelativeToolTip": "DALL\\DadosDaConexao.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T22:24:54.228Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DALConexao.cs",
-              "DocumentMoniker": "D:\\Codigos\\Projetos\\CRUDNOVO\\Sistema-de-estoque-em-C-\\SIstemaDeEstoque\\DALL\\DALConexao.cs",
-              "RelativeDocumentMoniker": "DALL\\DALConexao.cs",
-              "ToolTip": "D:\\Codigos\\Projetos\\CRUDNOVO\\Sistema-de-estoque-em-C-\\SIstemaDeEstoque\\DALL\\DALConexao.cs",
-              "RelativeToolTip": "DALL\\DALConexao.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T22:24:51.271Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "frmModeloDeCadastro.cs",
-              "DocumentMoniker": "D:\\Codigos\\Projetos\\CRUDNOVO\\Sistema-de-estoque-em-C-\\SIstemaDeEstoque\\DESK\\frmModeloDeCadastro.cs",
-              "RelativeDocumentMoniker": "DESK\\frmModeloDeCadastro.cs",
-              "ToolTip": "D:\\Codigos\\Projetos\\CRUDNOVO\\Sistema-de-estoque-em-C-\\SIstemaDeEstoque\\DESK\\frmModeloDeCadastro.cs",
-              "RelativeToolTip": "DESK\\frmModeloDeCadastro.cs",
-              "ViewState": "AQIAAEoAAAAAAAAAAAAIwGEAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T22:04:42.476Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

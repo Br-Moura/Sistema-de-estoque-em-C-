@@ -39,3 +39,4 @@ D:\Codigos\Projetos\CRUDNOVO\Sistema-de-estoque-em-C-\SIstemaDeEstoque\DESK\bin\
 D:\Codigos\Projetos\CRUDNOVO\Sistema-de-estoque-em-C-\SIstemaDeEstoque\DESK\bin\Debug\net8.0-windows\MODELO.pdb
 D:\Codigos\Projetos\CRUDNOVO\Sistema-de-estoque-em-C-\SIstemaDeEstoque\DESK\obj\Debug\net8.0-windows\DESK.csproj.AssemblyReference.cache
 D:\Codigos\Projetos\CRUDNOVO\Sistema-de-estoque-em-C-\SIstemaDeEstoque\DESK\obj\Debug\net8.0-windows\DESK.csproj.Up2Date
+D:\Codigos\Projetos\CRUDNOVO\Sistema-de-estoque-em-C-\SIstemaDeEstoque\DESK\obj\Debug\net8.0-windows\DESK.frmConsultaCategoria.resources

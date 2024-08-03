@@ -108,17 +108,68 @@ namespace DESK
                     //alterar uma categoria
                     modelo.CatID = Convert.ToInt32(txtCodigo.Text);
                     bll.Alterar(modelo);
+                    MessageBox.Show("cadastro alterado com sucesso");
                 }
                 this.limpatela();
                 this.alterabotoes(1);
             }
             catch (Exception erro)
             {
-
                 MessageBox.Show(erro.Message);
             }
+        }
 
-            
+        private void btnAlterar_Click(object sender, EventArgs e)
+        {
+            this.operacao = "Alterar";
+            this.alterabotoes(2);
+        }
+
+        private void btnExcluir_Click(object sender, EventArgs e)
+        {
+
+            try
+            {
+                DialogResult d = MessageBox.Show("Deseja excluir o registro", "AVISO", MessageBoxButtons.YesNo);
+                if (d.ToString() == "Yes")
+                {
+                    ModeloCategoria modelo = new ModeloCategoria();
+                    modelo.CatID = Convert.ToInt32(txtCodigo.Text);
+                    DALConexao cx = new DALConexao(DadosDaConexao.StringdeConexao);
+                    BLLCategoria bll = new BLLCategoria(cx);
+                    bll.Deletar(modelo);
+                    this.limpatela();
+                    this.alterabotoes(1);
+                }
+            }
+            catch
+            {
+
+                MessageBox.Show("impossivel excluir o registro. \n O numero de registro esta sendo utilizado em outro local");
+                this.alterabotoes(3);
+            }
+        }
+
+        private void btnLocalizar_Click(object sender, EventArgs e)
+        {
+            frmConsultaCategoria frm= new frmConsultaCategoria();
+            frm.ShowDialog();
+            if(frm.codigo != 0)
+            {
+                DALConexao cx = new DALConexao(DadosDaConexao.StringdeConexao);
+                BLLCategoria bll = new BLLCategoria(cx);
+                ModeloCategoria modelo = bll.CarregarModeloCategoria(frm.codigo);
+                txtCodigo.Text = modelo.CatID.ToString();
+                txtNome.Text = modelo.CatNome;
+                alterabotoes(3);
+
+            }
+            else
+            {
+                this.limpatela();
+                this.alterabotoes(1);
+            }
+            frm.Dispose();
         }
     }
 }

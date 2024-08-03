@@ -129,6 +129,7 @@
             btnExcluir.TabIndex = 0;
             btnExcluir.Text = "Excluir";
             btnExcluir.UseVisualStyleBackColor = true;
+            btnExcluir.Click += btnExcluir_Click;
             // 
             // btnAlterar
             // 
@@ -138,6 +139,7 @@
             btnAlterar.TabIndex = 0;
             btnAlterar.Text = "Alterar";
             btnAlterar.UseVisualStyleBackColor = true;
+            btnAlterar.Click += btnAlterar_Click;
             // 
             // btnLocalizar
             // 
@@ -147,6 +149,7 @@
             btnLocalizar.TabIndex = 0;
             btnLocalizar.Text = "Localizar";
             btnLocalizar.UseVisualStyleBackColor = true;
+            btnLocalizar.Click += btnLocalizar_Click;
             // 
             // btnInserir
             // 

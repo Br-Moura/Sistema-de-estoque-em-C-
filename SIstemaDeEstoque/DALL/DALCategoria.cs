@@ -30,7 +30,7 @@ namespace DALL
         {
             SqlCommand cmd = new SqlCommand();
             cmd.Connection = conexao.ObjetoConexao;
-            cmd.CommandText = "update CATEGORIA set nome_CATEGORIA = @nome" +
+            cmd.CommandText = "update CATEGORIA set nome_CATEGORIA = @nome " +
                               "where id_CATEGORIA = @id";
             cmd.Parameters.AddWithValue("@nome", modelo.CatNome);
             cmd.Parameters.AddWithValue("@id", modelo.CatID);
