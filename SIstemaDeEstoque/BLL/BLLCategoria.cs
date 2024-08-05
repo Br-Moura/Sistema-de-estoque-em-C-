@@ -21,6 +21,7 @@ namespace BLL
         {
             this.conexao = cx;
         }
+        
         public void Incluir(ModeloCategoria modelo)
         {
             
