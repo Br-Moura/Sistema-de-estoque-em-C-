@@ -1,5 +1,8 @@
+using DALL;
+using MODELO;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -24,10 +27,6 @@ namespace BLL
             {
                 throw new Exception("O codigo da Categoria é obrigatorio");
             }
-           if (!int.TryParse(modelo.CATSUBCAT_ID, out int result))
-            {
-                throw new Exception("Insira um ID numérico");
-            }
 
             DALSubcategoria DALobj = new DALSubcategoria(conexao);
             DALobj.Incluir(modelo);
@@ -49,17 +48,13 @@ namespace BLL
             {
                 throw new Exception("O codigo da Categoria é obrigatorio");
             }
-           if (!int.TryParse(modelo.CATSUBCAT_ID, out int result))
-            {
-                throw new Exception("Insira um ID numérico");
-            }
         }
         #endregion Alterar
 
         #region Deletar
         public void Deletar(ModeloSubCategoria modelo)
         {
-            DALSubcategoria DALobj = new DALSubcategoria();
+            DALSubcategoria DALobj = new DALSubcategoria(conexao);
             DALobj.Deletar(modelo);
         }
         #endregion Deletar
@@ -67,15 +62,15 @@ namespace BLL
         #region Pesquisar
         public DataTable Pesquisar(String Valor)
         {
-            DALSubcategoria DALobj = new DALSubcategoria();
-            return DALobj.Pesquisar(valor);
+            DALSubcategoria DALobj = new DALSubcategoria(conexao);
+            return DALobj.Pesquisar(Valor);
         }
         #endregion Pesquisar
 
         #region Carregar modelo SubCategoria
         public ModeloSubCategoria CarregarModeloSubCategoria(int codigo)
         {
-            DALSubcategoria DALobj = new DALSubcategoria();
+            DALSubcategoria DALobj = new DALSubcategoria(conexao);
             return DALobj.CarregarModeloSubCategoria(codigo);
         }
         #endregion Carregar modelo SubCategoria

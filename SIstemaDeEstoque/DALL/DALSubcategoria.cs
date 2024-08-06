@@ -25,9 +25,9 @@ namespace DALL
             cmd.CommandText = "insert into SUBCATEGORIA (nome_SUBCATEGORIA, id_categoria_SUBCATEGORIA)" +
                               " values (@nome, @idcategoria) select @@IDENTITY";
             cmd.Parameters.AddWithValue("@nome", modelo.SUBCAT_NOME);
-            cmd.Parameters.AddWithValue("@idcategoria" modelo.CATSUBCAT_ID);
+            cmd.Parameters.AddWithValue("@idcategoria", modelo.SUBCAT_ID);
             conexao.Conectar();
-            modelo.SUBCAT_ID = convert.ToInt32(cmd.ExecuteScalar(cmd.ExecuteScalar()));
+            modelo.SUBCAT_ID = Convert.ToInt32(cmd.ExecuteScalar());
             conexao.Desconectar();
         }
         #endregion Incluir
@@ -39,9 +39,9 @@ namespace DALL
             cmd.Connection = conexao.ObjetoConexao;
             cmd.CommandText = "update SUBCATEGORIA set nome_SUBCATEGORIA = @nome, id_categoria_SUBCATEGORIA = @idcategoria " +
                               "where id_SUBCATEGORIA = @id";
-            cmd.Parameters.AddWithValue("@id", modelo.id_SUBCATEGORIA);
+            cmd.Parameters.AddWithValue("@id", modelo.SUBCAT_ID);
             cmd.Parameters.AddWithValue("@nome", modelo.SUBCAT_NOME);
-            cmd.Parameters.AddWithValue("@idcategoria" modelo.CATSUBCAT_ID);
+            cmd.Parameters.AddWithValue("@idcategoria", modelo.CATSUBCAT_ID);
             conexao.Conectar();
             cmd.ExecuteNonQuery();
             conexao.Desconectar();
@@ -53,8 +53,8 @@ namespace DALL
         {
             SqlCommand cmd = new SqlCommand();
             cmd.Connection = conexao.ObjetoConexao;
-            cmd.CommandText= "delete SUBCATEGORIA where id_SUBCATEGORIA = @id"
-            cmd.Parameters.AddWithValue("@id", modelo.SUBCAT_ID)
+            cmd.CommandText = "delete SUBCATEGORIA where id_SUBCATEGORIA = @id";
+            cmd.Parameters.AddWithValue("@id", modelo.SUBCAT_ID);
             conexao.Conectar();
             cmd.ExecuteNonQuery();
             conexao.Desconectar();
@@ -62,10 +62,10 @@ namespace DALL
         #endregion Deletar
 
         #region Pesquisar
-        public DataTable Pesquisar(Strinf valor)
+        public DataTable Pesquisar(String valor)
         {
             DataTable tabela = new DataTable();
-            SqlDataAdapter da  new SqlDataAdapter("select * from SUBCATEGORIA where nome_SUBCATEGORIA like '%" +
+            SqlDataAdapter da = new SqlDataAdapter("select * from SUBCATEGORIA where nome_SUBCATEGORIA like '%" +
             valor + "%'", conexao.StringConexao);
             da.Fill(tabela);
             return tabela;
@@ -78,16 +78,16 @@ namespace DALL
             ModeloSubCategoria modelo = new ModeloSubCategoria();
             SqlCommand cmd = new SqlCommand();
             cmd.Connection = conexao.ObjetoConexao;
-            cmd cmd.CommandText= "selec * from SUBCATEGORIA where id_SUBCATEGORIA = @id";
+            cmd.CommandText= "selec * from SUBCATEGORIA where id_SUBCATEGORIA = @id";
             cmd.Parameters.AddWithValue("@id",modelo.SUBCAT_ID);
             conexao.Conectar();
             SqlDataReader registro = cmd.ExecuteReader();
             if (registro.HasRows)
             {
                 registro.Read();
-                modelo.SUBCAT_ID = convert.ToInt32(registro["id_SUBCATEGORIA"]);
-                modelo.SUBCAT_NOME = convert.ToString(registro["nome_SUBCATEGORIA"]);
-                modelo.CATSUBCAT_ID = convert.ToInt32(registro["id_categoria_SUBCATEGORIA"]);
+                modelo.SUBCAT_ID = Convert.ToInt32(registro["id_SUBCATEGORIA"]);
+                modelo.SUBCAT_NOME = Convert.ToString(registro["nome_SUBCATEGORIA"]);
+                modelo.CATSUBCAT_ID = Convert.ToInt32(registro["id_categoria_SUBCATEGORIA"]);
             }
             conexao.Desconectar();
             return modelo;

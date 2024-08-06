@@ -22,5 +22,12 @@ namespace DESK
             frm.ShowDialog();
             frm.Dispose();
         }
+
+        private void subCategoriaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCadastroSubCategoria frm = new frmCadastroSubCategoria();
+            frm.ShowDialog();
+            frm.Dispose();
+        }
     }
 }

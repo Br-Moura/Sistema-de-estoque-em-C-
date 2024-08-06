@@ -10,22 +10,22 @@ namespace MODELO
         private int subcat_ID;
         public int SUBCAT_ID
         {
-                get { return this.SUBCAT_NOME;}
-                set { this.SUBCAT_NOME= value; } 
+                get { return this.subcat_ID; }
+                set { this.subcat_ID = value; } 
         }
 
         private String subcat_NOME;
         public String SUBCAT_NOME
         {
-            get { return this.SUBCAT_NOME;}
-            set { this.SUBCAT_NOME= value; }
+            get { return this.subcat_NOME; }
+            set { this.subcat_NOME = value; }
         }
 
         private int catSubCat_ID;
         public int CATSUBCAT_ID
         {
-            get { return this.CATSUBCAT_ID; }
-            set { this.CATSUBCAT_ID = value; }
+            get { return this.catSubCat_ID; }
+            set { this.catSubCat_ID = value; }
         }
     }
 }
